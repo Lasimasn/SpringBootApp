@@ -66,8 +66,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.13</version>
 		</dependency>
-<<<<<<< HEAD
-=======
+
 
 
 		<dependency>
@@ -75,7 +74,7 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 			<version>2.1.4.RELEASE</version>
 		</dependency>
->>>>>>> 504640949cb045768277b06c1f6632befe7cdbf5
+
 
 		<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
 
@@ -110,8 +109,4 @@
 		</plugins>
 	</build>
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 504640949cb045768277b06c1f6632befe7cdbf5
 </project>

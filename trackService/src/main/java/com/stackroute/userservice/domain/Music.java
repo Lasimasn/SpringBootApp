@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Document(collection = "Music")
+@Document(collection = "Muzix")
 public class Music {
 
     @Id

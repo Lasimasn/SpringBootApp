@@ -13,20 +13,8 @@ public class MusicApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MusicApplication.class,args);
+        System.out.println();
     }
 
 
-}
-@RefreshScope
-@RestController
-class MuzixRestController
-{
-    @Value("${msg:Hello World-Config Server is not working...please check}")
-    private String msg;
-
-    @RequestMapping("/msg")
-    String getMsg()
-    {
-        return this.msg;
-    }
 }
