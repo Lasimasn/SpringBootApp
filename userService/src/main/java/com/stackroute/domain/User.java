@@ -26,11 +26,10 @@ public class User {
     public User(){
 
     }
-    public User(String firstName, String lastName, int age, String userName,int id) {
+    public User(String firstName, String lastName, int age,int id) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.userName = userName;
         this.id = id;
     }
 
@@ -58,17 +57,6 @@ public class User {
         this.age = age;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    String userName;
-
-
     @Override
     public String toString() {
         return "User{" +
@@ -76,7 +64,6 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", age=" + age +
-                ", userName='" + userName + '\'' +
                 '}';
     }
 }
