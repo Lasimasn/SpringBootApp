@@ -4,7 +4,7 @@ import com.stackroute.userservice.domain.Music;
 import com.stackroute.userservice.exceptions.TrackAlreadyExistException;
 import com.stackroute.userservice.exceptions.TrackNotFoundException;
 import com.stackroute.userservice.service.MusicService;
-import io.swagger.annotations.ApiOperation;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
