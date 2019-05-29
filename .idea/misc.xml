@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/track-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/trackService/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/userService/pom.xml" />
       </list>
     </option>
   </component>
