@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "api/v1/userservice")
+@RequestMapping(value = "api/v1")
 public class UserController {
 
 
@@ -23,7 +23,7 @@ public class UserController {
         this.userService = userService;
     }
 
-    @PostMapping
+    @PostMapping(value="user")
     public ResponseEntity<?> saveUser(@RequestBody User user){
         ResponseEntity responseEntity;
         try {
@@ -41,7 +41,7 @@ public class UserController {
     }
 
 
-    @GetMapping
+    @GetMapping(value = "user")
     public ResponseEntity<?>getAllUser(){
 
       return new ResponseEntity<List<User>>(userService.getAllUser() , HttpStatus.OK);
