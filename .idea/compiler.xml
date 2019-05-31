@@ -18,7 +18,7 @@
       <module name="testdemo" target="11" />
       <module name="track-config-server" target="1.8" />
       <module name="userservice" target="11" />
-      <module name="zuul-api-gateway" target="1.8" />
+      <module name="zuul-api-gateway" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
