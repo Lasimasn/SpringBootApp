@@ -1,0 +1,35 @@
+version: "2"
+services:
+
+  apigateway:
+    build: ./zuul-api-gateway
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaserver
+
+
+  eurekaserver:
+    build: ./spring-eureka-server
+    restart: always
+    network_mode: host
+
+
+  configserver:
+    build: ./track-config-server
+    restart: always
+    network_mode: host
+
+  userservice:
+    build: ./userService
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaserver
+
+  trackservice:
+    build: ./trackService
+    restart: always
+    network_mode: host
+    depends_on:
+      - eurekaserver

@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.boot:spring-boot-actuator:2.2.0.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190529.225549-327.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190531.075524-329.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190529.225549-327-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190531.075524-329-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190529.225549-327-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/2.2.0.BUILD-SNAPSHOT/spring-boot-actuator-2.2.0.BUILD-20190531.075524-329-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
